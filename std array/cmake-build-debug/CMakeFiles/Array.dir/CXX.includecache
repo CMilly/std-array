@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/cameron/Documents/Development/C++/Array/main.cpp
+/cygdrive/c/Users/cameron/Documents/Development/C++/std array/main.cpp
 iostream
 -
 initializer_list

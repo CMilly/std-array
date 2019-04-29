@@ -17,6 +17,7 @@ public:
     T& at(size_t pos) const;
     T& front() const;
     T& back() const;
+    bool empty() const;
     void to_string();
 };
 
@@ -105,6 +106,17 @@ T& array<T, N>::back() const {
 }
 
 /**
+ * Check if array has is empty
+ * @tparam T
+ * @tparam N
+ * @return boolean
+ */
+template <typename T, size_t N>
+bool array<T, N>::empty() const {
+    return arr_size == NULL ? true : false; // if size == NULL
+}
+
+/**
  * Return the size of array
  * @tparam T
  * @tparam N
@@ -128,9 +140,4 @@ void array<T, N>::to_string() {
 }
 
 int main() {
-    array<int, 4> my_arr {1, 2, 3, 4};
-    cout << my_arr.front() << endl;
-    cout << my_arr.at(3) << endl;
-    cout << my_arr[1] << endl;
-    cout << my_arr.back() << endl;
 }
