@@ -44,6 +44,8 @@ Implementation of the std::array container that encapsulates fixed sized arrays
 # Updates (to be)
 - New method implementations
 - Time complexity on algorithms
+- Exceptions
+- Syntax (cleaner)
 
 # Updated
 - N/A
