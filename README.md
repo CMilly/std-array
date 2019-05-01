@@ -10,6 +10,7 @@ Implementation of the std::array container that encapsulates fixed sized arrays
   size_t array<T, N>::size() {
     return arr_size;
   }
+  ```
   - at()
 # Updates (to be)
 - New method implementations
